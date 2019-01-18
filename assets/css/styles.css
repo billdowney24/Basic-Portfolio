@@ -69,6 +69,35 @@ nav ul li:last-child a {
   border: 1px solid #777777;
 }
 
+.portfolio-item {
+  position: relative;
+  background-color: rgba(0,0,0, .5);
+  color: white;
+  margin-bottom: 20px;
+  width: 45%;
+  float: left;
+  height: 250px;
+}
+
+.portfolio-item:nth-of-type(even) {
+  float: right;
+}
+
+.portfolio-item h4 {
+  background: #4aaaa5;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  bottom:15px;
+  width: 100%;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
 #left-column {
   background: white;
   padding: 25px;
@@ -91,11 +120,6 @@ nav ul li:last-child a {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
-}
-
-.clearfix {
-  display: block;
-  clear: both;
 }
 
 form label {
@@ -132,4 +156,35 @@ footer {
   color: #cccccc;
   text-align: center;
   border-top: 8px solid #4aaaa5;
+}
+
+#portfolio1 {
+  background: url(../images/image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio2 {
+  background: url('../images/image2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio3 {
+  background: url('../images/image3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio4 {
+  background: url('../images/image4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio5 {
+  background: url('../images/image5.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#portfolio6 {
+  background: url('../images/image6.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
