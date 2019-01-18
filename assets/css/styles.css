@@ -158,32 +158,32 @@ footer {
   border-top: 8px solid #4aaaa5;
 }
 
-#portfolio1 {
+#travel {
   background: url(../images/image1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-#portfolio2 {
+#sports {
   background: url('../images/image2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-#portfolio3 {
+#music {
   background: url('../images/image3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-#portfolio4 {
+#technology {
   background: url('../images/image4.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-#portfolio5 {
+#cars {
   background: url('../images/image5.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-#portfolio6 {
+#moto {
   background: url('../images/image6.jpg');
   background-size: cover;
   background-repeat: no-repeat;
