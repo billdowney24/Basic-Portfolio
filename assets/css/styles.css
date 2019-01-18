@@ -69,11 +69,6 @@ nav ul li:last-child a {
   border: 1px solid #777777;
 }
 
-.clearfix {
-  display: block;
-  clear: both;
-}
-
 #left-column {
   background: white;
   padding: 25px;
@@ -96,6 +91,38 @@ nav ul li:last-child a {
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 20px;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+form label {
+  font-size: 18px;
+  display: block;
+}
+
+form input, form textarea {
+  width: 100%;
+  display: block;
+  margin: 5px 0px 20px 0px;
+  border: 2px solid #cccccc;
+  padding: 10px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 300px;
+}
+
+form button {
+  background: #4aaaa5;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  border: none;
 }
 
 footer {
